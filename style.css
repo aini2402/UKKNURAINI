@@ -1,0 +1,215 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+header  {
+    background-color: rgb(231, 158, 182);
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 165px;
+    height: auto;
+    padding: 20px;
+}
+
+.logo:hover {
+    transform: scale(0.9);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    align-content: center;
+}
+
+.btn-order {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+/* Hero */
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hero-content {
+    align-items: center;
+    margin: 50px 0 0 20px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin: 100px 0 0 0;
+    color: rgb(0, 142, 224);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 0 60px 0;
+}
+
+.btn-primary {
+    background-color: skyblue;
+    color: wheat;
+    font-size: 2rem;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px; 
+    text-decoration: none;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+/* Product */
+
+#products {
+    background-color: rgb(252, 247, 247);
+}
+
+#products h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Products-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.product {
+    max-width: 350px;
+}
+
+.product h3 {
+    font-size: 1.4rem;
+    margin: 15px 0 5px;
+}
+
+.product p {
+    font-size: 1rem;
+    padding: 0 0 15px 0;
+}
+
+.product img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.product img:hover {
+    transform: scale(0.9);
+}
+
+/* Testimonials */
+
+#testimonials  {
+    background-color: white;
+}
+
+#testimonials h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gambar img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.content {
+    font-size: 1rem;
+    align-items: center;
+    margin: auto 0 160px 0;
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: rgb(252, 247, 247);
+}
+
+#contact h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.borderform {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+form input,
+textarea {
+    text-align: center;
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.submit {
+    display: flex;
+    margin: 0 auto 10px auto;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20PX;
+    background-color: rgb(223, 198, 198);
+}
+
+.akhir a img{
+    width: 100%;
+    max-width: 60px;
+    padding: 8px;
+
+}
